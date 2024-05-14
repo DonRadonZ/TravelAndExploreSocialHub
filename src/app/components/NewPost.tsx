@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function footer() {
+export default function NewPost() {
   return (
     <div>
-      
+      NewPost
     </div>
   )
 }
