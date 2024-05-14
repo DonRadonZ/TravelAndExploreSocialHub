@@ -1,7 +1,13 @@
-export default function page() {
+import Post from "./post/page";
+import Chat from "./chat/page";
+import Profile from "./[username]/page";
+
+
+
+export default function App() {
   return (
-    <div>
-      
-    </div>
+    <h1 >
+    Travel and Explore SocialHub
+    </h1>
   )
 }
