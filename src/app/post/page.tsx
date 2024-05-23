@@ -1,5 +1,5 @@
 import React from 'react'
-import NewPost from '../components/NewPost'
+import NewPost from '../_components/NewPost'
 
 export default function Post() {
   return (
