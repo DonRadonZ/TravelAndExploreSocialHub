@@ -19,18 +19,18 @@ export default function Profile() {
     <div className="grid grid-cols-3 gap-3 text-xl text-base-100 w-fit">
     <div className="flex items-center text-center gap-2">
       <strong>200</strong>
-      <span>Following</span>
+      <span> Following</span>
     </div>
     <div>
       <strong>125</strong>
-      <span>Follower</span>
+      <span> Follower</span>
     </div>
     <div>
       <strong>4</strong>
-      <span>Post</span>
+      <span> Post</span>
     </div>
     </div>
-    <div className="border-x-5  h-full pt-10 px-10 space-y-5">
+    <div className="  h-full pt-10 px-10 space-y-5">
       <PostCard/>
       <PostCard/>
       <PostCard/>
