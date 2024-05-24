@@ -8,14 +8,14 @@ export default function Navigation() {
         <ul className="flex gap-8 items-center">
             <li>
                 <Link
-                  href=""
+                  href="/"
                   className="hover:text-accent-400 transition-colors">
                     Home
                   </Link>
             </li>
             <li>
                 <Link
-                  href=""
+                  href="/chat"
                   className="hover:text-accent-400 transition-colors">
                     Message
                   </Link>
@@ -29,7 +29,7 @@ export default function Navigation() {
                   </li>
                   <li>
                 <Link
-                  href=""
+                  href="/username"
                   className="hover:text-accent-400 transition-colors">
                     Profile
                   </Link>
