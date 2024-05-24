@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} flex flex-col bg-lime-400 h-[100dvh]`}>
+      <body className={`${inter.className} flex flex-col bg-green-300 h-[100dvh]`}>
         <div className="border border-red-700">
         <Header/>
         

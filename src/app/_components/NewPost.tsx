@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function NewPost() {
   return (
-    <div>
-      NewPost
+    <div className="w-full card ">
+      New Post
     </div>
   )
 }
