@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import PostCard from '../_components/PostCard'
 
-export default function Profile({params}) {
+export default function Profile() {
   return (
     <div className='border border-yellow-700 lg:container sm:mx-auto sm:px-10 xl:px-20 pt-24'>
       <div className="flex justify-between items-center gap-3 sm:gap-5">
