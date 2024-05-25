@@ -8,15 +8,13 @@ import PostCard from "./_components/PostCard";
 
 export default function App() {
   return (
-    <div className="">
-      <div>
-        <NewPost/>
-        <PostCard/>
-        <PostCard/>
-        <PostCard/>
-        <PostCard/>
-        <PostCard/>
-      </div>
+    <div className="mt-12">
+      <NewPost/>
+      <PostCard/>
+      <PostCard/>
+      <PostCard/>
+      <PostCard/>
     </div>
+      
   )
 }
