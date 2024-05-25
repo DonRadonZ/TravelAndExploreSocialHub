@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function PostCard() {
   return (
-    <div className="p-8 rounded-lg shadow-md max-w-md bg-white">
+    <div className="p-4 rounded-lg shadow-md max-w-md bg-white">
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center space-x-2">
         <Image src='/dummy-avatar.jpg' width={32} height={32} alt="User Avatar" className='rounded-full' />
