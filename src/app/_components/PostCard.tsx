@@ -5,13 +5,13 @@ import Image from 'next/image';
 
 export default function PostCard() {
   return (
-    <div className="p-4 rounded-lg shadow-md max-w-md bg-white">
+    <div className="p-8 rounded-lg shadow-md  bg-white mb-4">
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center space-x-2">
-        <Image src='/dummy-avatar.jpg' width={32} height={32} alt="User Avatar" className='rounded-full' />
+        <Image src='/dummy-avatar.jpg' width={64} height={32} alt="User Avatar" className='rounded-full' />
         <div>
-          <p className="text-gray-800 font-semibold">John Doe</p>
-          <p className="text-gray-500 text-sm">Posted 2 hours ago</p>
+          <p className="text-gray-800 font-semibold text-lg">John Doe</p>
+          <p className="text-gray-500 text-md">Posted 2 hours ago</p>
           </div>
         </div>
         <div className="text-gray-500 cursor-pointer">
@@ -42,7 +42,7 @@ export default function PostCard() {
       <h2>Comment</h2>
       <hr className="mt-2 mb-2"/>
       <div className="flex items-center space-x-2 mt-2 ml-6">
-      <Image src="/dummy.png" alt="avatar image" width={32} height={32}  className='rounded-full'/>
+      <Image src="/dummy.png" alt="avatar image" width={64} height={64}  className='rounded-full'/>
       <div>
         <h3>Eddy Jone</h3>
         <p>Great Knowledge for Olympics</p>
